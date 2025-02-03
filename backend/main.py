@@ -1,10 +1,9 @@
-from litestar import Litestar, get
+from litestar import Litestar
+
+from api import api_route
 
 
-@get("/")
-async def hello_world() -> dict[str, str]:
-  """Handler function that returns a greeting dictionary."""
-  return {"hello": "world"}
+app = Litestar(
+  route_handlers=[api_route],
+)
 
-
-app = Litestar(route_handlers=[hello_world])
