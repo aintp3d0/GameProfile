@@ -1,1 +1,7 @@
 *.bkp
+
+.venv
+__pycache__
+
+*.py[cod]
+*.swp
