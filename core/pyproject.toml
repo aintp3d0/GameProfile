@@ -1,0 +1,16 @@
+[project]
+name = "core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.14.1",
+    "psycopg2-binary>=2.9.10",
+    "pydantic-settings>=2.7.1",
+    "sqlalchemy>=2.0.37",
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
