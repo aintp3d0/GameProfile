@@ -5,6 +5,7 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import TopUsers from './TopUsers.vue'
 
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
@@ -15,7 +16,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
       <DocumentationIcon />
     </template>
     <template #heading>Users</template>
-    <p>TOP Users</p>
+    <TopUsers />
     <p>TOP Active Users</p>
   </WelcomeItem>
 
