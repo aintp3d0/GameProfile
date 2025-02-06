@@ -1,7 +1,7 @@
-<p align="center"><img src="./data/_readme/Frontend.png" /></p>
+<p align="center"><img src="./data/_readme/Banner.png" /></p>
 
 > [!NOTE]
-> Brief: [Diagram](./data/_readme/Banner.png)
+> Brief: [Diagram](./data/README.md)
 
 Core
 ```bash
