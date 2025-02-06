@@ -1,12 +1,15 @@
 > [!NOTE]
-> Brief: Expored from [Diagram.drawio](./Diagram.drawio)
+> Brief: Expored from [./Diagram.drawio](./Diagram.drawio)
 
-<p align="center">Core
+<hr />
+<p align="center">
 	<img src="./_readme/CoreDiagram.png" />
 </p>
-<p align="center">Backend
+<hr />
+<p align="center">
 	<img src="./_readme/BackendDiagram.png" />
 </p>
-<p align="center">Frontend
+<hr />
+<p align="center">
 	<img src="./_readme/FrontendDiagram.png" />
 </p>
