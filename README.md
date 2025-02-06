@@ -1,4 +1,7 @@
-<p align="center"><img src="./data/_readme/Diagram.png" /></p>
+<p align="center"><img src="./data/_readme/Frontend.png" /></p>
+
+> [!NOTE]
+> Brief: [Diagram](./data/_readme/Diagram.png)
 
 Core
 ```bash
@@ -26,7 +29,6 @@ npm run dev
 Directory Structure
 ```
 # tree . --dirsfirst -d -I node_modules -I data -I __pycache__ -L 2
-
 .
 ├── backend
 │   └── api
