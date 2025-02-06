@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9" pages="4">
   <diagram name="Backend" id="qW0B-3OZ1i4sycYyhk4Y">
-    <mxGraphModel dx="1455" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2126" dy="1289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,7 +141,7 @@
           <mxGeometry x="360" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eYIC6QEplD3zfraAjW3h-11" value="User" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="225" width="180" height="150.0000000000001" as="geometry" />
+          <mxGeometry x="120" y="225" width="180" height="150.0000000000001" as="geometry" />
         </mxCell>
         <mxCell id="eYIC6QEplD3zfraAjW3h-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="eYIC6QEplD3zfraAjW3h-11" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -199,10 +199,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s9w5AXc3YXPS5uqRN05O-3" value="&lt;b&gt;Telegram&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="200" width="120" height="40" as="geometry" />
+          <mxGeometry x="600" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s9w5AXc3YXPS5uqRN05O-6" value="&lt;b&gt;TOKEN&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="680" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="600" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6Dyf9X5jS_WnFEZGkZHx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6Dyf9X5jS_WnFEZGkZHx-1" target="s9w5AXc3YXPS5uqRN05O-6" edge="1">
           <mxGeometry relative="1" as="geometry" />

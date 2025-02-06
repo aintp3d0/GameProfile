@@ -1,13 +1,13 @@
 <p align="center"><img src="./data/_readme/Frontend.png" /></p>
 
 > [!NOTE]
-> Brief: [Diagram](./data/_readme/Diagram.png)
+> Brief: [Diagram](./data/_readme/Banner.png)
 
 Core
 ```bash
 cd core
 # Generate migration
-uv run alembic revision --autogenerate -m "Added user table"
+uv run alembic revision --autogenerate -m "msg"
 # Apply generated migration
 uv run alembic upgrade +1
 # Apply all migrations
