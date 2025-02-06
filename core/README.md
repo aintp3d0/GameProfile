@@ -6,4 +6,3 @@
 
 from core.db.models import Model
 ```
-
