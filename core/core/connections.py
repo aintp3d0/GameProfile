@@ -15,7 +15,7 @@ class Postgres:
     if cls.engine is None:
       return
     cls.engine = create_engine(
-      settings.pg_dsn,
+      str(settings.POSTGRES_DSN),
       echo=True
     )
 

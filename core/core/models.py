@@ -1,6 +1,4 @@
-from typing import List
 from typing import Optional
-from sqlalchemy import ForeignKey
 from sqlalchemy import String
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped
@@ -23,5 +21,4 @@ class User(Base):
   fullname: Mapped[Optional[str]]
 
   def __repr__(self) -> str:
-    return f"User(id={self.id!r}, name={self.name!r}, fullname={self.fullname!r})"
-
+    return f"User(id={self.id!r}, name={self.username!r}, fullname={self.fullname!r})"

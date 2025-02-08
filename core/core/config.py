@@ -1,20 +1,14 @@
-from typing import Any, Callable, Set
+import os
 
-from pydantic import (
-  AliasChoices,
-  AmqpDsn,
-  BaseModel,
-  Field,
-  ImportString,
-  PostgresDsn,
-)
-
+from pydantic import PostgresDsn, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-  # TODO: use environment variables
-  pg_dsn: PostgresDsn = 'postgresql+psycopg2://postgres:simple@localhost:5433/game_profile'
+  if not os.environ.get("IS_PRODUCTION_MODE"):
+    model_config = SettingsConfigDict(env_file=".env")
+
+  POSTGRES_DSN: PostgresDsn = Field(default=...)
 
 
 settings = Settings()
