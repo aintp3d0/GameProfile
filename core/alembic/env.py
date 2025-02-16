@@ -13,14 +13,6 @@ from core.models import Base
 # access to the values within the .ini file in use.
 config = context.config
 
-# FIXME: return str
-config.set_main_option(
-  'sqlalchemy.url',
-  str(
-    settings.pg_dsn
-  ),
-)
-
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
 if config.config_file_name is not None:
@@ -50,9 +42,8 @@ def run_migrations_offline() -> None:
     script output.
 
     """
-    url = config.get_main_option("sqlalchemy.url")
     context.configure(
-        url=url,
+        url=str(settings.POSTGRES_DSN),
         target_metadata=target_metadata,
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
@@ -69,8 +60,10 @@ def run_migrations_online() -> None:
     and associate a connection with the context.
 
     """
+    section_config = config.get_section(config.config_ini_section, {})
+    section_config["sqlalchemy.url"] = str(settings.POSTGRES_DSN)
     connectable = engine_from_config(
-        config.get_section(config.config_ini_section, {}),
+        section_config,
         prefix="sqlalchemy.",
         poolclass=pool.NullPool,
     )
