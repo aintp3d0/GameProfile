@@ -7,6 +7,9 @@
       <router-link to="/games" class="nav-link" active-class="active">
         Games
       </router-link>
+      <router-link to="/users" class="nav-link" active-class="active">
+        Users
+      </router-link>
     </div>
   </nav>
 </template>
